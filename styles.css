@@ -1,7 +1,7 @@
 .newContainer {
     padding-top: 25px;
     padding-bottom: 5px;
-    background-image: url('AdobeStock_483565716.jpeg');
+    background-image: url('Assets/AdobeStock_483565716.jpeg');
     background-size: cover; /* This will make sure the image covers the entire container */
     background-position: center; /* This will center the image */
     background-repeat: no-repeat; /* This will prevent the image from repeating */
