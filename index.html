@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tyson Portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <!-- Other head content -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <div class="newContainer">
+            <!-- First section with card style info</div>rmation -->
+            <div class="card">
+                <img src="Assets/tyson-cartoon.png" alt="Tyson" style="width:100%">
+                <h1>Tyson Tiatia</h1>
+                <p class="title">Enterprise Account Execuitve</p>
+                <p>Salt Lake City, Utah</p>
+                <div style="margin: 30px 0;">
+                <a href="#"><i class="fa fa-github"></i></a> 
+                <a href="#"><i class="fa fa-linkedin"></i></a>  
+                </div>
+                <button>Contact</button>
+            </div>
+            <!-- Tabs with links to different pages -->
+            <div class="tab-container">
+                <button class="tablink" onclick="openPage('AboutMe', this, '')" id="defaultOpen">
+                    <i class="fas fa-user"></i> About
+                </button>
+                <button class="tablink" onclick="openPage('Employment', this, '')">
+                    <i class="fas fa-briefcase"></i> Experience
+                </button>
+                <button class="tablink" onclick="openPage('Skills', this, '')">
+                    <i class="fas fa-code"></i> Skills
+                </button>
+            </div>
+        </div>
+        <!-- About me page -->
+        <div id="AboutMe" class="tabcontent">
+            <div class="about-me-container">
+                <div class="about-me-text">
+                    <h1>👋🏾 Hey, I'm Tyson!</h1>
+                    <p>An Enterprise Account Executive based in Salt Lake City, Utah. I have a passion for helping businesses grow and thrive.</p>
+                    <p>Results-driven Enterprise Account Executive with 7+ years of experience in acquiring and managing key enterprise accounts. Consistently exceeded sales targets by 20% through effective leadership, problem-solving, and strong communication skills. Proven track record in driving revenue growth and building long-term relationships with clients. Ready to leverage expertise and drive sales success for AWS.</p>
+                    <h2>"Sell the Problem you solve, not the Product."</h2>
+                    <p>Results-driven Enterprise Account Executive with 7+ years of experience in acquiring and managing key enterprise accounts. Consistently exceeded sales targets by 20% through effective leadership, problem-solving, and strong communication skills. Proven track record in driving revenue growth and building long-term relationships with clients. Ready to leverage expertise and drive sales success for AWS.</p>
+                </div>
+                <div class="about-me-image-container">
+                    <img src="Assets/IMG_1003.jpeg" alt="Your Image" class="about-me-image">
+                </div>
+            </div>
+        </div>
+        <!-- Employment page -->
+        <div id="Employment" class="tabcontent">
+            <h1>Professional Experience</h1>
+            <!-- Timeline of employment -->
+            <div class="timeline">
+                <div class="container left">
+                    <div class="content">
+                        <h3>2023 - Present</h3>
+                        <h2>Codefresh , Enterprise Account Execuitve, Remote</h2>
+                        <ul>
+                            <li>Responsible for driving revenue growth and bringing in new business</li>
+                            <li>Work with customers to understand their needs and provide solutions</li>
+                            <li>Develop and maintain relationships with key stakeholders</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container right">
+                    <div class="content">
+                        <h3>2021 - 2023</h3>
+                        <h2>Codefresh , Mid-Market Account Execuitve, Remote</h2>
+                        <ul>
+                            <li>Responsible for driving revenue growth and bringing in new business</li>
+                            <li>Work with customers to understand their needs and provide solutions</li>
+                            <li>Develop and maintain relationships with key stakeholders</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container left">
+                    <div class="content">
+                        <h3>2019 - 2021</h3>
+                        <h2>Codefresh , Sales Development Representative, Remote</h2>
+                        <ul>
+                            <li>Responsible for driving revenue growth and bringing in new business</li>
+                            <li>Work with customers to understand their needs and provide solutions</li>
+                            <li>Develop and maintain relationships with key stakeholders</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container right">
+                    <div class="content">
+                        <h3>2016 - 2018</h3>
+                        <h2>Streamline Studios , Product Manager, Kuala Lumpur, Malaysia</h2>
+                        <ul>
+                            <li>Responsible for driving revenue growth and bringing in new business</li>
+                            <li>Work with customers to understand their needs and provide solutions</li>
+                            <li>Develop and maintain relationships with key stakeholders</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container left">
+                    <div class="content">
+                        <h3>2015 - 2016</h3>
+                        <h2>Streamline Studios , Sales Support Engineer, Kuala Lumpur, Malaysia</h2>
+                        <ul>
+                            <li>Responsible for driving revenue growth and bringing in new business</li>
+                            <li>Work with customers to understand their needs and provide solutions</li>
+                            <li>Develop and maintain relationships with key stakeholders</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container right">
+                    <div class="content">
+                        <h3>2014 - 2015</h3>
+                        <h2>PDCflow, Outbound Sales Representative, Ogden, Utah</h2>
+                        <ul>
+                            <li>Responsible for driving revenue growth and bringing in new business</li>
+                            <li>Work with customers to understand their needs and provide solutions</li>
+                            <li>Develop and maintain relationships with key stakeholders</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <button class="download-button">Download Resume</button>
+        </div>
+        <!-- Skills page -->
+        <div id="Skills" class="tabcontent">
+            <h1>Enterprise Account Executive Capabilities</h1>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <div class="skill-header bg-blue-600">
+                        <i class="fa fa-handshake"></i>
+                        <h4>Enterprise Sales</h4>
+                    </div>
+                    <div class="skill-body">
+                        <p>Expert in complex enterprise sales cycles with focus on DevOps solutions. Specialized in deals ranging from $500K to $2M+.</p>
+                        <h5>Core Competencies:</h5>
+                        <ul>
+                            <li>Solution Selling</li>
+                            <li>Enterprise Negotiations</li>
+                            <li>Strategic Account Planning</li>
+                            <li>Value-Based Selling</li>
+                        </ul>
+                        <p><i class="fa fa-line-chart"></i> Closed $5.2M in ARR for FY2023</p>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-header bg-green-600">
+                        <i class="fa fa-cogs"></i>
+                        <h4>Technical Expertise</h4>
+                    </div>
+                    <div class="skill-body">
+                        <p>Proficient in various technical tools and platforms, with a strong understanding of DevOps and cloud technologies.</p>
+                        <h5>Core Competencies:</h5>
+                        <ul>
+                            <li>Cloud Computing</li>
+                            <li>DevOps Tools</li>
+                            <li>Technical Support</li>
+                            <li>System Integration</li>
+                        </ul>
+                        <p><i class="fa fa-wrench"></i> Implemented multiple cloud-based solutions</p>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-header bg-red-600">
+                        <i class="fa fa-users"></i>
+                        <h4>Leadership</h4>
+                    </div>
+                    <div class="skill-body">
+                        <p>Experienced in leading teams and projects, with a focus on achieving business objectives and fostering a collaborative environment.</p>
+                        <h5>Core Competencies:</h5>
+                        <ul>
+                            <li>Team Management</li>
+                            <li>Project Leadership</li>
+                            <li>Strategic Planning</li>
+                            <li>Mentorship</li>
+                        </ul>
+                        <p><i class="fa fa-trophy"></i> Led a team to exceed sales targets by 20%</p>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-header bg-yellow-600">
+                        <i class="fa fa-lightbulb"></i>
+                        <h4>Innovation</h4>
+                    </div>
+                    <div class="skill-body">
+                        <p>Skilled in identifying and implementing innovative solutions to drive business growth and efficiency.</p>
+                        <h5>Core Competencies:</h5>
+                        <ul>
+                            <li>Creative Problem Solving</li>
+                            <li>Process Improvement</li>
+                            <li>Product Development</li>
+                            <li>Market Analysis</li>
+                        </ul>
+                        <p><i class="fa fa-rocket"></i> Developed a new product line that increased revenue by 15%</p>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-header bg-purple-600">
+                        <i class="fa fa-comments"></i>
+                        <h4>Communication</h4>
+                    </div>
+                    <div class="skill-body">
+                        <p>Excellent communication skills with the ability to convey complex ideas to diverse audiences.</p>
+                        <h5>Core Competencies:</h5>
+                        <ul>
+                            <li>Public Speaking</li>
+                            <li>Negotiation</li>
+                            <li>Stakeholder Management</li>
+                            <li>Conflict Resolution</li>
+                        </ul>
+                        <p><i class="fa fa-microphone"></i> Delivered keynote speeches at industry conferences</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Made with ❤️ by Tyson Tiatia</p>  
+        </div>
+        <script src="javascript.js"></script>
+    </body>
+</html>
